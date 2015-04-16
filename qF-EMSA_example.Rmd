@@ -48,6 +48,7 @@ library(EBImage) # for image processing
 
 
 The algorithm of gel image processing is basically doing three things:  
+
   Step 1: slice the imge into individual lanes  
   Step 2: extract raw intensity signal for each lane  
   Step 3: calculate the background intensity data and substract it from teh raw intensity signal  
